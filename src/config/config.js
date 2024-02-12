@@ -20,6 +20,10 @@ export const getTypeMessage = () => {
     return process.env.MESSAGE
 }
 
+export const getNUMBER_WORD = () => {
+    return process.env.NUMBER_WORD
+}
+
 export const getTimeOut = () => {
     return Number(process.env.PERIODE_MS) || 5000
 
